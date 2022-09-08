@@ -1,0 +1,17 @@
+.container {
+  grid-template-rows: repeat(14, 1fr);
+}
+.container .item1, .container .item2, .container .item3, .container .item4, .container .item5, .container .item6, .container .item7 {
+  grid-column: 1/5;
+}
+.container .item2 {
+  grid-row: 2/3;
+}
+.container .item3, .container .item4 {
+  grid-row: span 3;
+}
+.container .item5, .container .item6, .container .item7 {
+  grid-row: span 2;
+}
+
+/*# sourceMappingURL=mobile.css.map */
